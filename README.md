@@ -1,24 +1,21 @@
+# FizzBuzzWhizz - TDD
 
-# TDD_Metodh
+## Description
 
-## JavaScript Code Katas
+This project implements the FizzBuzzWhizz kata using **Test-Driven Development (TDD)** with TypeScript and Jest.
 
-Small coding exercises to learn Test Driven Development (TDD) technique.
+The goal is to practice programming logic by writing tests and implementing the code to satisfy them.
 
-## Set up
+## Rules
 
-1. Clone the original project:
-   `https://github.com/JuanPa90Cap/Katas.git`
+- **Fizz:** Return `"Fizz"` if the number is divisible by 3.
+- **Buzz:** Return `"Buzz"` if the number is divisible by 5.
+- **FizzBuzz:** Return `"FizzBuzz"` if the number is divisible by both 3 and 5.
+- **Whizz:** Return `"Whizz"` if the number is prime, considering only numbers from 2 to 100.
+- **Combined results:** If a prime number is divisible by 3 or 5, combine the corresponding words with `"Whizz"`.
+- **Number:** Return the original number if none of the rules apply.
 
-2. Install all project dependencies:
-   `npm install`
 
-## Available Scripts
+## Author
 
-### `npm run test`
-
-Launches the test runner.
-
-### `npm run test:watch`
-
-Launches the test runner in watch mode.
+CarlosJoels
